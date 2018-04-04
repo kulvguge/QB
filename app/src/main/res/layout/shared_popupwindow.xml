@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/pop_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/no_color">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:id="@+id/dialog_weixin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/iconfont_weixin2x"
+                android:text="微信好友"/>
+
+            <Button
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:id="@+id/dialog_weixinmoments"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/iconfont_pengyouquan2x"
+                android:text="朋友圈"/>
+
+
+
+            <Button
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:id="@+id/dialog_qq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/iconfont_qq2x"
+                android:text="QQ"/>
+            <Button
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:id="@+id/dialog_qone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/iconfont_qqkongjian2x"
+                android:text="QQ空间"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:id="@+id/dialog_sinaweibo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableTop="@mipmap/iconfont_weibo2x"
+                android:text="微博"/>
+
+            <Button
+                android:text="联系人"
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:id="@+id/lianxin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:visibility="invisible"/>
+
+
+
+            <!-- 下面这两个是占位的 -->
+            <Button
+                android:visibility="invisible"
+                android:id="@+id/save_img"
+                android:drawablePadding="5dp"
+                android:text="保存图片"
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+            />
+
+
+            <Button
+                android:id="@+id/jubao_zhanwei"
+
+                android:textColor="#383838"
+                android:textSize="12dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+
+                android:drawablePadding="5dp"
+                android:visibility="invisible"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="25dp"
+            android:background="#F8F9FA"/>
+
+        <TextView
+            android:id="@+id/dialog_cancel_lay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#4B3F38"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</RelativeLayout>

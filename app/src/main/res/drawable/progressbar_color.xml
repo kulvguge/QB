@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 背景  gradient是渐变,corners定义的是圆角 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/no_color"/>
+        </shape>
+    </item>
+
+   <item  
+        android:id="@android:id/secondaryProgress"  
+        >  
+        <clip>  
+            <shape>  
+                <solid android:color="@color/cornflowerblue"></solid>
+            </shape>  
+  
+        </clip>  
+    </item>  
+    <item  
+        android:id="@android:id/progress"  
+        >  
+        <clip>  
+            <shape>  
+                <solid android:color="@color/cornflowerblue"></solid>
+            </shape>  
+  
+        </clip>  
+    </item>  
+
+</layer-list>
+
+
+
+<!-- <layer-list xmlns:o2o="http://schemas.android.com/apk/res/android">
+    <item  
+        o2o:id="@o2o:id/background"
+        >  
+        <clip>  
+            <shape>  
+                <solid o2o:color="@color/white"></solid>
+            </shape>  
+  
+        </clip>  
+    </item>  
+    <item  
+        o2o:id="@o2o:id/secondaryProgress"
+        >  
+        <clip>  
+            <shape>  
+                <solid o2o:color="@color/red"></solid>
+            </shape>  
+  
+        </clip>  
+    </item>  
+    <item  
+        o2o:id="@o2o:id/progress"
+        >  
+        <clip>  
+            <shape>  
+                <solid o2o:color="@color/red"></solid>
+            </shape>  
+  
+        </clip>  
+    </item>  
+</layer-list>   -->
